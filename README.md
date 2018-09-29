@@ -1,3 +1,5 @@
+##This is a copy of Michael Nilsen's python project for NNs that he presents in the book Neural Networks and Depp Learning. I do not own this code.
+
 ## Overview
 
 ### neuralnetworksanddeeplearning.com integrated scripts for Python 3.5.2 and Theano with CUDA support
