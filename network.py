@@ -69,6 +69,13 @@ class Network(object):
                 for k in range(0, n, mini_batch_size)]
             for mini_batch in mini_batches:
                 self.update_mini_batch(mini_batch, eta)
+            #Steinars code
+            if (j == 29):
+                np.set_printoptions(threshold=np.nan)
+                np.savetxt('weightsAfterTrainingChapter1Ex1.txt', self.weights, delimiter=',', newline='\n', fmt='%s')
+                np.savetxt('biasesAfterTrainingChapter1Ex1.txt', self.biases, delimiter=',', newline='\n', fmt='%s')
+            #End of Steinars code
+
             if test_data:
                 print("Epoch {} : {} / {}".format(j,self.evaluate(test_data),n_test));
             else:
