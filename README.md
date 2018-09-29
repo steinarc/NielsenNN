@@ -1,43 +1,13 @@
-# Code samples for "Neural Networks and Deep Learning"
+## Overview
 
-This repository contains code samples for my book on ["Neural Networks
-and Deep Learning"](http://neuralnetworksanddeeplearning.com).
+### neuralnetworksanddeeplearning.com integrated scripts for Python 3.5.2 and Theano with CUDA support
 
-The code is written for Python 2.6 or 2.7. Michal Daniel Dobrzanski
-has a repository for Python 3
-[here](https://github.com/MichalDanielDobrzanski/DeepLearningPython35). I
-will not be updating the current repository for Python 3
-compatibility.
+These scrips are updated ones from the **neuralnetworksanddeeplearning.com** gitHub repository in order to work with Python 3.5.2
 
-The program `src/network3.py` uses version 0.6 or 0.7 of the Theano
-library.  It needs modification for compatibility with later versions
-of the library.  I will not be making such modifications.
+The testing file (**test.py**) contains all three networks (network.py, network2.py, network3.py) from the book and it is the starting point to run (i.e. *train and evaluate*) them.
 
-As the code is written to accompany the book, I don't intend to add
-new features. However, bug reports are welcome, and you should feel
-free to fork and modify the code.
+## Just type at shell: **python3.5 test.py**
 
-## License
+In test.py there are examples of networks configurations with proper comments. I did that to relate with particular chapters from the book.
 
-MIT License
 
-Copyright (c) 2012-2018 Michael Nielsen
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
